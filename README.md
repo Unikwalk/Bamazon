@@ -1,14 +1,14 @@
-#BAMAZON STOREFRONT APP
+# BAMAZON STOREFRONT APP
 
-(https://github.com/Unikwalk/Bamazon "Bamazon on GitHub")
+Bamazon on GitHub https://github.com/Unikwalk/Bamazon
 
-##Project Descriptions:
+## Project Descriptions:
 
 Bamazon is like Amazon with a B and it carries much cooler stuff! 
 
 The app will take in orders from customers and deplete stock from the store's inventory. The app is programmed to track product sales across the store's departments and then provide a summary of the highest-grossing departments in the store.
 
-###Customer View:
+### Customer View:
 
 When the js file is called, using `node bamazon.js`, it will display a complete list of all products, departments, pricing, and current inventory. 
 
@@ -22,23 +22,23 @@ Users has 2 options: Choose to exit by typing 'X' or choose the product by typin
 
 When the js file is called, using `node bamazon.js`, it will display a complete list of all products:
 
-(displayProduct.JPG)
+![display product](displayProduct.JPG)
 
 Choose to exit by typing 'X': 
 
-(displayProductX.JPG)
+![display product with 'X'](displayProductX.JPG)
 
 Choose the product by typing in its `item_id`:
 
-(chooseItemID.JPG)
+![choose item ID](chooseItemID.JPG)
 
 Choose quantity and purchase is successful:
 
-(makePurchase.JPG)
+![make purchase](makePurchase.JPG)
 
 Choose quantity and purchase is unsuccessful:
 
-(checkStock.JPG)
+![check stock](checkStock.JPG)
 
 
 
