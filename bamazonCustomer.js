@@ -64,7 +64,7 @@ function askForQuantity(product) {
         type: "input",
         message: "How many do you need? [Exit with 'X']",
         validate: function (val) { //check if the answer to question above is more than 0 or an "x"
-          return val > 0 || val.toLowerCase() === "q";
+          return val > 0 || val.toLowerCase() === "x";
         }
       }
     ])
@@ -89,16 +89,16 @@ function makePurchase(product, quantity) {
   connection.query(
     "UPDATE products SET stock_quantity = stock_quantity - ? WHERE item_id = ?", //update mysql database, subtract the input quantity
     [quantity, product.item_id],
-    function(err, res) {
+    function (err, res) {
       // Let the user know the purchase was successful, re-run loadProducts
-      console.log("\nSuccessfully purchased " + quantity + " " + product.product_name + "(s)!" + 
-                  "\n" +
-                  "\n-----------------------------"
-                );
+      console.log("\nSuccessfully purchased " + quantity + " " + product.product_name + "(s)!" +
+        "\n" +
+        "\n-----------------------------"
+      );
       displayProducts();
     }
   );
-} 
+}
 
 function checkStock(choiceId, stock) {
   for (var i = 0; i < stock.length; i++) {

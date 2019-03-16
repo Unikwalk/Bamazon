@@ -10,7 +10,7 @@ The app will take in orders from customers and deplete stock from the store's in
 
 ### Customer View:
 
-When the js file is called, using `node bamazon.js`, it will display a complete list of all products, departments, pricing, and current inventory. 
+When the bamazonCustomer.js file is called, using `node bamazonCustomer.js`, it will display a complete list of all products, departments, pricing, and current inventory. 
 
 Users has 2 options: Choose to exit by typing 'X' or choose the product by typing in its `item_id`.
 
@@ -21,7 +21,7 @@ Users has 2 options: Choose to exit by typing 'X' or choose the product by typin
     * If the quantity is more than inventory, purchase will not be made and the app will display the complete list again.
 
 
-When the bamazon.js file is called, using `node bamazon.js`, it will display a complete list of all products:
+When the bamazonCustomer.js file is called, using `node bamazonCustomer.js`, it will display a complete list of all products:
 
 ![display product](displayProduct.JPG)
 
