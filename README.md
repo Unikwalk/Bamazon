@@ -25,22 +25,27 @@ When the bamazonCustomer.js file is called, using `node bamazonCustomer.js`, it 
 
 ![display product](images/displayProduct.JPG)
 
+
 Choose to exit by typing 'X': 
 
 ![display product with 'X'](images/displayProductX.JPG)
 
+
 Choose the product by typing in its `item_id`(Ex: 9):
 
 ![choose item ID](images/chooseItemID.JPG)
+
 
 Choose quantity and purchase is successful, app will display list with updated inventory for that item.
 You can see that stock_quantity is now 9 after 41 was deducted from 50 for item id 9:
 
 ![make purchase](images/makePurchase.JPG)
 
+
 Choose quantity and purchase is unsuccessful, app will yell at customer. Since requested quantiy (15) is more than inventory (9), the app will display the list and ask user again.
 
 ![check stock](images/checkStock.JPG)
+
 
 ### Manager View:
 
@@ -57,21 +62,25 @@ When the bamazonManager.js file is called, using `node bamazonManager.js`, it wi
 
 ![menu options](images/menuOptions.JPG)
 
+
 `View Products for Sale` will display a table of all products and their associated information (price, dept, stock, id)
 
 ![view products](images/viewProducts.JPG)
+
 
 `View Low Inventory` will display all products with stock level less than or equal to 5
 
 ![view low inventory](images/viewLowInv.JPG)
 
+
 `Add to Inventory` will allow user to add stock to an existing product, using its ID
 
 ![add to inventory](images/addInv.JPG)
 
+
 `Add New Product` will allow user to add a new product within existing departments
 
-![add new product](images/addProd.JPG)
+![add new product](images/addPro.JPG)
 
 
 ## Technologies Used:
